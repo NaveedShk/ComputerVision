@@ -1,0 +1,7 @@
+Experiment,Distance Threshold,Foreground markers,Regions,Observed Result
+1,0.20·max = 4.8,1,1,UNDER-segmented: ~23 coin(s) merged or lost
+2,0.40·max = 9.6,7,7,UNDER-segmented: ~17 coin(s) merged or lost
+3,0.60·max = 14.4,24,24,"all 24 coins separated, uniform regions (CV=0.04)"
+4,0.80·max = 19.2,24,24,"all 24 coins separated, uniform regions (CV=0.04)"
+5,0.95·max = 22.8,24,24,count OK (24) but very uneven region sizes (CV=0.51) - markers too small
+6,0.99·max = 23.8,20,20,UNDER-segmented: ~4 coin(s) merged or lost
